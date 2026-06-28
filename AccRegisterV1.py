@@ -40,9 +40,7 @@ def signup_page():
     if sNameInput in DataStore:
         print("[SUCCESS] Your account has been registered!")
     else:
-        print(
-            "[FAILED] Unavaiable to register your account! \n Usual reason: \n Username Taken \n Data Corrupted"
-        )
+        print("[FAILED] Unavaiable to register your account! \n Usual reason: \n Username Taken \n Data Corrupted")
 
     time.sleep(3)
     clr_Terminal()
