@@ -9,7 +9,6 @@ Because of that, switching over to Python wasn't a total nightmare—especially 
 # So What It Can Do?
 - **Temporary RAM Storage:** Saves usernames and passwords in the RAM. No heavy databases here, so everything resets once you close the program.
 - **Fast Login Validation:** Utilizes Python's built-in dictionary methods to instantly cross-check credentials.
-- **Admin Control Gate:** Features a restricted Admin Menu that requires a specific hardcoded username and password to view the registered users list.
 
 # How It Works?
 Since I'm only 4 days into Python, I'm not an expert yet and haven't dived into building a fancy Graphical User Interface (GUI). Instead, I kept it text-based and interactive! Here is how the logic flows:
