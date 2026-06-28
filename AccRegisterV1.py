@@ -70,7 +70,7 @@ def login_page():
         print(f"[SUCCESS] Welcome aboard captain! {lNameInput}")
     else:
         print(
-            "[FAILED] Unavaiable to get into your's account! \n Usual reason: \n Wrong username \n Wrong passwords \n Account didnt exist \n Data Corrupted"
+            "[FAILED] Unavaiable to get into your account! \n Usual reason: \n Wrong username \n Wrong passwords \n Account didnt exist \n Data Corrupted"
         )
 
     time.sleep(3)
