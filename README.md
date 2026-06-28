@@ -2,7 +2,7 @@
 
 Greetings! Welcome to my very first project on my Python journey!
 
-I've been learning Python 3 for just 3 days now, and honestly, it has been a really fun ride so far. This isn't my first time dealing with code, though. Before this, I spent some time messing around with scripts in **Lua and Luau** (mainly in Roblox Studio). While I am definitely not a pro scripter, that experience gave me a solid grasp of basic programming logic.
+I've been learning [Python3](https://www.python.org/downloads/release/python-3123/) for just 3 days now, and honestly, it has been a really fun ride so far. This isn't my first time dealing with code, though. Before this, I spent some time messing around with scripts in **Lua and Luau** (mainly in Roblox Studio). While I am definitely not a pro scripter, that experience gave me a solid grasp of basic programming logic.
 
 Because of that, switching over to Python wasn't a total nightmare—especially since it's known as one of the easiest programming languages to learn. Right now, my main focus is getting used to the new syntax, learning how Python handles data, and building small projects like this to test my limits. We all start somewhere, right? :)
 
