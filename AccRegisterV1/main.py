@@ -38,9 +38,8 @@ def signup_page():
         clr_Terminal()
         return
 
-    DataStore[sNameInput] = sPassInput
-
     if sNameInput in DataStore:
+        DataStore[sNameInput] = sPassInput
         print("[SUCCESS] Your account has been registered!")
     else:
         print(
