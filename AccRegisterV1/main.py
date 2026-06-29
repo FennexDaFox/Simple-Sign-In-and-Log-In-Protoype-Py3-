@@ -38,13 +38,14 @@ def signup_page():
         clr_Terminal()
         return
 
+    # LOGIK BARU DI SINI:
     if sNameInput in DataStore:
+        print(
+            "[FAILED] Unavailable to register your account! \nUsual reason: \nUsername Taken \nData Corrupted"
+        )
+    else:
         DataStore[sNameInput] = sPassInput
         print("[SUCCESS] Your account has been registered!")
-    else:
-        print(
-            "[FAILED] Unavaiable to register your account! \n Usual reason: \n Username Taken \n Data Corrupted"
-        )
 
     time.sleep(3)
     clr_Terminal()
