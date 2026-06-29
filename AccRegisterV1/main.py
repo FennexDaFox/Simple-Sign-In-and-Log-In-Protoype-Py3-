@@ -10,7 +10,7 @@ DataStore: dict = {}
 
 # Funcs
 def clr_Terminal():
-    # easily spam clear the terminal XD
+    # easily spam clear the terminal XD 
     os.system("cls" if os.name == "nt" else "clear")
 
 
