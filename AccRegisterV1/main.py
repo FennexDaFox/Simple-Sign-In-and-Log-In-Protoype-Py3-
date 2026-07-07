@@ -26,8 +26,6 @@ def signup_page():
         cls()
         return
 
-    DataStore[sNameInput] = sPassInput
-
 if sNameInput in DataStore:
     print("[FAILED] Username already taken!")
 else:
