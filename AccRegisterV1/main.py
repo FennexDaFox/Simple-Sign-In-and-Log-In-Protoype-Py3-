@@ -28,12 +28,10 @@ def signup_page():
 
     DataStore[sNameInput] = sPassInput
 
-    if sNameInput in DataStore:
-        print("[SUCCESS] Your account has been registered!")
-    else:
-        print(
-            "[FAILED] Unavaiable to register your account! \n Usual reason: \n Username Taken \n Data Corrupted"
-        )
+if sNameInput in DataStore:
+    print("[FAILED] Username already taken!")
+else:
+    DataStore[sNameInput] = sPassInput
 
     wait(3)
     cls()
