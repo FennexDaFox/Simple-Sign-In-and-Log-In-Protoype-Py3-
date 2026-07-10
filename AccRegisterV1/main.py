@@ -30,7 +30,8 @@ def signup_page():
         print("[FAILED] Username already taken!")
     else:
         DataStore[sNameInput] = sPassInput
-
+        print("[SUCCESS] Account created successfully!")
+        
     wait(3)
     cls()
 
