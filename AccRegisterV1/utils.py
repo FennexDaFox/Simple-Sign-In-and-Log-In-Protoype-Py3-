@@ -11,6 +11,6 @@ def cls():
     os.system("cls" if os.name == "nt" else "clear")
 
 
-def divider():
-    # make a devider using "=" and multiply it with 36
-    print("=" * 36)
+def divider(amount) -> int:
+    # make a devider using "=" and multiply it
+    print("=" * amount)
